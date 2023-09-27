@@ -1,6 +1,8 @@
 import React from 'react'
 import { BsSearch } from "react-icons/bs";
 import { BsFillBasketFill } from "react-icons/bs";
+
+
 export default function Header() {
   return (
     <nav>
