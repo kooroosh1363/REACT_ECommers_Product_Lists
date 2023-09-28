@@ -2,12 +2,13 @@ import React from 'react'
 import productCard from '../../data/pro_data';
 import "./mainContent.css";
 
+
 const MainContent = () => {
   console.log(productCard);
   const ItemList = productCard.map((item) => (
     <div className="card" key={item.id}>
       <div className="img_card">
-        <img src={item.image} />
+        <img src={item.thumb} />
       </div>
 
       <div className="header_card">
