@@ -5,7 +5,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image: "../assets/images/download.jpeg"
+        thumb: "../assets/images/download.jpeg"
 
 
     },
@@ -15,7 +15,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image : "../assets/images/36W-green.jpg"
+        thumb : "../assets/images/36W-green.jpg"
 
     },
     {
@@ -24,7 +24,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image : "../assets/images/36W-red.jpg"
+        thumb : "../assets/images/36W-red.jpg"
 
     },
     {
@@ -33,7 +33,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image : "../assets/images/36W-white.jpg"
+        thumb : "../assets/images/36W-white.jpg"
 
     },
     {
@@ -42,7 +42,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image : "../assets/images/46V-sand.jpg"
+        thumb : "../assets/images/46V-sand.jpg"
 
     },
     {
@@ -51,7 +51,7 @@ const productCard = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, repudiandae.",
         price : 30,
         currency : "$",
-        image : "../assets/images/48V-grey-white.jpg"
+        thumb : "../assets/images/48V-grey-white.jpg"
 
     }
 ]
