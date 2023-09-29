@@ -1,0 +1,123 @@
+:root{
+    --font: 'Roboto';
+    --font_cursive: 'Satisfy';
+    --round: 'Varela Round';
+    --hover: rgb(109, 255, 4);
+    --back:hsla(222, 37%, 51%, 1);
+    --back_light:hsla(222, 9%, 41%, 1);
+    --txt:hsla(0, 0%, 72%, 1);
+    --txt1: rgb(254, 114, 0);
+    --txt3:hsla(360, 0%, 66%, 1);
+    --white:hsla(0, 100%, 100%, 1);
+    --gray : hsla(0, 0%, 19%, 0.37);
+    --black: hsla(360, 0%, 9%, 0.27);
+  }
+
+.content_main{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    padding: 50px 0 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.content_main h3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--black);
+    font-size: 30.5vw;
+    /* text-align: center !important; */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 30%;
+    border-radius: 10px;
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    margin-bottom: 50px;
+
+}
+
+.card:hover{
+    background-color: var(--gray) !important;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.card .header_card .btn:hover{
+    background-color: var(--txt1) !important;
+}
+
+.img_card{
+    margin-top: -5vw;
+}
+
+.img_card img{
+    width: 200px;
+}
+
+.header_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white);
+    margin: 45px 0;
+}
+
+.header_card h2{
+    font-size: 50px;
+}
+
+.header_card p{
+    font-size: 25px;
+    text-align: center;
+    color: var(--white);
+    margin: 8px 0;
+    /* font-weight: bold; */
+}
+
+
+
+.price{
+    font-size: 60px !important;
+    color: var(--txt1) !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.price:hover{
+    color: var(--hover) !important;
+}
+
+.price span{
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: top;
+    transform: scale(.8);
+}
+
+.btn{
+    width: 8.438rem;
+    height: 55px;
+    font-size: 1.2rem;
+    border-radius: 2.1875rem;
+    background-color: var(--black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
