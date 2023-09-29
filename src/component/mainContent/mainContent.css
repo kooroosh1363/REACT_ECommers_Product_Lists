@@ -19,8 +19,8 @@
     justify-content: space-between;
     width: 70%;
     height: 100%;
-    margin: 50px auto;
-    padding: 50px 0 0;
+    margin: 3.125rem auto;
+    padding: 3.125rem 0 0;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
@@ -39,7 +39,7 @@
     flex-direction: column;
     position: relative;
     width: 30%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     transform: scale(.8);
     transition: all .3s ease-in-out;
     margin-bottom: 50px;
@@ -63,7 +63,7 @@
 }
 
 .img_card img{
-    width: 200px;
+    width: 12.5rem;
 }
 
 .header_card{
@@ -71,36 +71,38 @@
     align-items: center;
     flex-direction: column;
     color: var(--white);
-    margin: 45px 0;
+    margin: 2.813rem 0;
 }
 
 .header_card h2{
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .header_card p{
-    font-size: 25px;
+    font-size: 1.563rem;
     text-align: center;
     color: var(--white);
-    margin: 8px 0;
+    margin: 0.5rem 0;
     /* font-weight: bold; */
 }
 
 
 
 .price{
-    font-size: 60px !important;
+    font-size: 3.75rem !important;
     color: var(--txt1) !important;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s ease;
 }
 
 .price:hover{
     color: var(--hover) !important;
+    
 }
 
 .price span{
-    font-size: 25px;
+    font-size: 1.563rem;
     display: inline-block;
     vertical-align: top;
     transform: scale(.8);
@@ -108,7 +110,7 @@
 
 .btn{
     width: 8.438rem;
-    height: 55px;
+    height: 3.438rem;
     font-size: 1.2rem;
     border-radius: 2.1875rem;
     background-color: var(--black);
