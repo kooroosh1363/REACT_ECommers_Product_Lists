@@ -1,0 +1,47 @@
+:root{
+    --font: 'Roboto';
+    --font_cursive: 'Satisfy';
+    --round: 'Varela Round';
+    --hover: rgb(109, 255, 4);
+    --back:hsla(222, 37%, 51%, 1);
+    --back_light:hsla(222, 9%, 41%, 1);
+    --txt:hsla(0, 0%, 72%, 1);
+    --txt1: rgb(254, 114, 0);
+    --txt3:hsla(360, 0%, 66%, 1);
+    --white:hsla(0, 100%, 100%, 1);
+    --gray : hsla(0, 0%, 19%, 0.37);
+    --black: hsla(360, 0%, 9%, 0.27);
+  }
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto !important;
+    color: var(--txt);
+    font-size: 20px !important;
+}
+
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 2.813rem;
+    height: 2.813rem;
+    border-radius:3.125rem;
+    border: 3px solid var(--black);
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+    color: var(--white);
+    
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
