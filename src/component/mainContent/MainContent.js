@@ -8,7 +8,7 @@ const MainContent = () => {
   const ItemList = productCard.map((item) => (
     <div className="card" key={item.id}>
       <div className="img_card">
-        <img src={item.thumb} />
+        <img src={item.thumb} alt={'tt'} />
       </div>
 
       <div className="header_card">
