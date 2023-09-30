@@ -15,8 +15,8 @@
 
 
 .footer{
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    justify-content: space-between !important;
     align-items: center;
     margin-top: auto !important;
     color: var(--txt);
